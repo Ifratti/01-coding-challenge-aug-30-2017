@@ -1,7 +1,7 @@
 # Coding challenge 01
 
 ## The challenge
-Use python to solve a scrambled photo puzzle.
+Use python to solve a scrambled photo puzzle. Simply clone or download this repository to get started.
 
 ## Info
 Use the python library, Pillow, to solve the image `puzzle-scramble.png`.
