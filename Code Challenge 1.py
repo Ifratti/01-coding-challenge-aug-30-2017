@@ -55,7 +55,7 @@ for i in range(0,len(unscrambled_image_array)):
         scrambled_image_array = scrambled_image_array[1:] + scrambled_image_array[:1]
     solution.append(scrambled_image_array[0]);
 #Putting unscrabled image onto scrambled image
-solution_img = Image.new("RGB",(330,330))
+solution_img = Image.new(img.mode,(width,height))
 for j in range(0,block_rows):
     for i in range(0,block_rows):
         box =(0+i*block_length_int
